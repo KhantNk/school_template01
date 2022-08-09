@@ -13,16 +13,29 @@
   line-height: 2;
 }
 
+<<<<<<< HEAD
 .whatwedo-sec {
   padding-top: 50px;
 }
 
 .scholar-sec {
   padding: 50px 0;
+=======
+.scholar-sec {
+  padding-top: 50px;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .scholar-sec i {
   color: #FFAE11;
+<<<<<<< HEAD
+=======
+  font-size: 40px;
+}
+
+.scholar-sec .logo-flex{
+  gap: 28px;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 @media (max-width: 1024px) {

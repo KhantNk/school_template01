@@ -1,10 +1,13 @@
 @charset 'UTF-8';
 
+<<<<<<< HEAD
 /* Slider */
 .slick-loading .slick-list {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
 }
 
+=======
+>>>>>>> 0c4dcf9 (New commit message.)
 /* Icons */
 @font-face {
     font-family: 'slick';
@@ -117,6 +120,7 @@
 }
 
 /* Dots */
+<<<<<<< HEAD
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
 }
@@ -147,6 +151,10 @@
     padding: 0;
 
     cursor: pointer;
+=======
+.slick-dots {
+    position: absolute;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .slick-dots li button {

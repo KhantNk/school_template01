@@ -1,5 +1,13 @@
 .award {
+<<<<<<< HEAD
   line-height: 3;
+=======
+  padding-top: 40px;
+}
+
+.award ul li {
+  line-height: 2.5;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .academicsdetails .sam-img {
@@ -13,6 +21,7 @@
 }
 
 .academicsdetails .information {
+<<<<<<< HEAD
   padding: 20px;
 }
 
@@ -25,8 +34,52 @@
 }
 
 .academicsdetails .class-info li:before{
+=======
+  padding: 30px 50px 30px 30px;
+}
+
+.academicsdetails .information .d-flex {
+  line-height: 3;
+  color: #555555;
+}
+
+.academicsdetails .information {
+  text-align: left;
+}
+
+.academicsdetails .class-info li:before {
+>>>>>>> 0c4dcf9 (New commit message.)
   content: ':';
   padding-right: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+.academicsdetails .sam {
+  padding: 120px 0 100px;
+}
+
+.academicsdetails .sam .d-flex {
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.academicsdetails .award i {
+  color: #555555;
+}
+
+.academicsdetails .information h4 {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .academicsdetails .sam-img img {
+    width: 100%;
+  }
+
+  .academicsdetails .sam-img {
+    padding-top: 30px;
+  }
+}
+>>>>>>> 0c4dcf9 (New commit message.)

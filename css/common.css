@@ -15,6 +15,18 @@ body {
   font-family: 'Roboto';
 }
 
+<<<<<<< HEAD
+=======
+.banner {
+  background: url(../img/banner.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+>>>>>>> 0c4dcf9 (New commit message.)
 .inner {
   width: 1125px;
   margin: 0 auto;
@@ -35,6 +47,7 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
   font-family: 'Levenim MT';
   font-weight: 300px;
   font-size: 30px;
@@ -45,6 +58,19 @@ h2 {
   color: #006600;
   font-size: 38px;
   font-weight: bold;
+=======
+  font-weight: 300px;
+  font-size: 30px;
+  font-family: 'Levenim MT';
+}
+
+h2 {
+  color: #006600;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.5;
+  font-family: 'Levenim MT';
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 h3 {
@@ -53,6 +79,7 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
   color: #006600;
   font-size: 25px;
@@ -71,6 +98,26 @@ p {
   font-weight: 300;
   line-height: 2;
   color: #555555;
+=======
+  color: #006600;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  color: #333333;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  color: #555555;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 i {
@@ -123,6 +170,7 @@ span a::before {
 }
 
 .px-5 {
+<<<<<<< HEAD
   padding: 50px 0;
 }
 
@@ -132,6 +180,9 @@ span a::before {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+=======
+  padding: 120px 0 100px;
+>>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .bg-color {
@@ -142,7 +193,19 @@ nav ul .active a {
   color: #FFAE11;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
+=======
+.res {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .pc {
+    display: none;
+  }
+
+>>>>>>> 0c4dcf9 (New commit message.)
   .inner {
     width: 75%;
   }
@@ -152,7 +215,11 @@ nav ul .active a {
   }
 
   h2 {
+<<<<<<< HEAD
     font-size: 28px;
+=======
+    font-size: 25px;
+>>>>>>> 0c4dcf9 (New commit message.)
   }
 
   h3 {
@@ -160,6 +227,7 @@ nav ul .active a {
   }
 
   h4 {
+<<<<<<< HEAD
     font-size: 15px;
   }
 
@@ -172,10 +240,25 @@ nav ul .active a {
   }
 
   .res {
+=======
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .banner .res {
+>>>>>>> 0c4dcf9 (New commit message.)
     display: flex;
     flex-direction: column-reverse;
   }
 
+<<<<<<< HEAD
   .res .flex-end {
     display: block;
   }
@@ -189,10 +272,31 @@ nav ul .active a {
   }
 
   .mv-blk .tab-label {
+=======
+  .banner .res .flex-end {
+    display: block;
+  }
+
+  .banner .res .flex-start {
+    display: block;
+  }
+
+  .banner .res span {
+    color: #FFAE11;
+    font-size: 20px;
+  }
+
+  .banner nav i {
+    color: #FFAE11;
+  }
+
+  .banner .tab-label {
+>>>>>>> 0c4dcf9 (New commit message.)
     padding: 0;
     display: flex;
   }
 
+<<<<<<< HEAD
   .mv-blk input:checked~.tab-label::after {
     content: none;
   }
@@ -202,13 +306,38 @@ nav ul .active a {
   }
 
   .mv-blk .tab-content {
+=======
+  .banner input:checked~.tab-label::after {
+    content: none;
+  }
+
+  .banner .tab-label::after {
+    content: none;
+  }
+
+  .banner .tab-content {
+>>>>>>> 0c4dcf9 (New commit message.)
     padding: 0;
     background-color: #006600;
     text-align: center;
   }
 
+<<<<<<< HEAD
   .mv-blk .tab-content ul li {
+=======
+  .banner .tab-content ul li {
+>>>>>>> 0c4dcf9 (New commit message.)
     padding: 10px;
   }
 
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 768px) {
+  .inner {
+    width: 90%;
+  }
+
+}
+>>>>>>> 0c4dcf9 (New commit message.)
