@@ -1,0 +1,45 @@
+.footer-nav {
+  background-color: #333333;
+  padding: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #006600;
+  padding: 20px 0;
+}
+
+footer ul li {
+  line-height: 2;
+  color: #FFFFFF;
+}
+
+footer h4 {
+  color: #FFFFFF;
+}
+
+footer p {
+  color: #FFFFFF;
+}
+
+.footer-nav {
+  padding: 72px;
+}
+
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 45px;
+  padding-right: 130px;
+}
+
+@media (max-width: 1024px){
+  .dflex{
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-right: 0;
+    gap: 140px;
+  }
+}

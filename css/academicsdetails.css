@@ -1,0 +1,32 @@
+.award {
+  line-height: 3;
+}
+
+.academicsdetails .sam-img {
+  background-color: #FFFFFF;
+}
+
+.academicsdetails .sam-img img {
+  width: 354.5px;
+  height: 220;
+  object-fit: cover;
+}
+
+.academicsdetails .information {
+  padding: 20px;
+}
+
+.academicsdetails .information .d-flex{
+  line-height: 3;
+}
+
+.academicsdetails .information{
+  text-align: left;
+}
+
+.academicsdetails .class-info li:before{
+  content: ':';
+  padding-right: 10px;
+}
+
+

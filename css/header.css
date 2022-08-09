@@ -1,0 +1,27 @@
+header .logo {
+  padding: 30px 0;
+}
+
+header .logo .d-flex {
+  align-items: center;
+}
+
+nav {
+  background-color: #006600;
+  padding: 35px;
+}
+
+header li {
+  font-size: 20px;
+  color: #006600;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  header .logo {
+    padding: 20px;
+  }
+
+  
+}

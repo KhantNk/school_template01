@@ -1,0 +1,32 @@
+.warp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.warp-flex .logo-flex {
+  flex: 1 1 30%;
+  border: 1px solid#CCCCCC;
+  justify-content: center;
+  padding: 20px 0;
+  line-height: 2;
+}
+
+.whatwedo-sec {
+  padding-top: 50px;
+}
+
+.scholar-sec {
+  padding: 50px 0;
+}
+
+.scholar-sec i {
+  color: #FFAE11;
+}
+
+@media (max-width: 1024px) {
+  .warp-flex .logo-flex {
+    padding: 20px;
+  }
+}

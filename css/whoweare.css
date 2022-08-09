@@ -1,0 +1,59 @@
+.sam {
+  padding: 50px 0;
+}
+
+.sam-img img {
+  width: 318px;
+  height: 325px;
+}
+
+.sam-img {
+  text-align: center;
+}
+
+.sam h3 {
+  color: #FFAE11;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.sam-txt {
+  width: 65%;
+}
+
+.strategic-flex {
+  display: flex;
+  flex: 1 1 45%;
+  gap: 30px;
+}
+
+.strategic-sec h4 {
+  font-weight: 400;
+}
+
+.strategic-sec p {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 15px;
+}
+
+.strategic-sec {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .sam-img {
+    width: 100%;
+  }
+
+  .sam-txt {
+    width: 100%;
+  }
+
+  .strategic-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+}

@@ -1,0 +1,115 @@
+.contactus .contact .d-flex {
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+
+.contactus .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+}
+
+.contactus input {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.form-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.form-style li {
+  width: 49%;
+}
+
+.form-style li input {
+  width: 100%;
+  padding: 20px 0 20px 10px;
+  margin: 10px 0;
+}
+
+
+textarea {
+  width: 100%;
+  height: 146px;
+  margin: 10px 0;
+  padding: 20px 0 20px 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+
+.address i {
+  font-size: 16px;
+  color: #333333;
+  padding-right: 10px;
+}
+
+.address ul li {
+  padding: 17px 0;
+}
+
+.address ul li a {
+  color: #555555;
+}
+
+.map img {
+  width: 100%;
+}
+
+.address .logo-flex {
+  padding-top: 20px;
+}
+
+.address .logo-flex li {
+  width: 50px;
+  height: 50px;
+  background: #DDDDDD;
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+}
+
+.address .logo-flex li i {
+  line-height: 50px;
+  padding: 0;
+}
+
+.address h4 {
+  color: #006600;
+}
+
+.btn {
+  background-color: #006600;
+  border-radius: 3px;
+  padding: 13px;
+}
+
+@media (max-width: 1024px) {
+  .contactus .contact .d-flex {
+    flex-direction: column;
+  }
+
+  .contactus .contact-form {
+    width: 100%;
+  }
+
+  .form-style {
+    gap: 10px;
+  }
+
+  .address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 13px;
+    padding-top: 50px;
+  }
+
+}
