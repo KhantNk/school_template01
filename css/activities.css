@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+.activity {
+  padding: 120px 0 100px;
+}
 
-=======
 .wrapper {
   padding: 40px 0;
 }
@@ -45,4 +46,3 @@
 .activities .step {
   border-bottom: 1px solid #006600;
 }
->>>>>>> 0c4dcf9 (New commit message.)

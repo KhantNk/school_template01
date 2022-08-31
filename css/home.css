@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-.mv-blk {
-=======
 .home-pg .mv-blk {
->>>>>>> 0c4dcf9 (New commit message.)
   background: url(../img/main_bg.jpg);
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
-=======
   width: 100%;
->>>>>>> 0c4dcf9 (New commit message.)
   height: 600px;
 }
 
@@ -21,20 +14,12 @@
 .sch-flex {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-=======
   height: 400px;
   margin-top: 50px;
->>>>>>> 0c4dcf9 (New commit message.)
   background-image: url('/img/school.jpg');
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-<<<<<<< HEAD
-  height: 400px;
-  margin-top: 50px;
-=======
->>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .sch-sec .sch-img {
@@ -66,11 +51,7 @@
   margin-right: 0.0625rem;
   cursor: pointer;
   background-color: #DBDBDB;
-<<<<<<< HEAD
-  color: #006600;
-=======
   color: #333333;
->>>>>>> 0c4dcf9 (New commit message.)
   transition: background-color ease 0.3s;
   box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px 10px 0 0;
@@ -101,11 +82,7 @@
 }
 
 .tabs [type=radio]:checked+label {
-<<<<<<< HEAD
-  background-color: #006600;
-=======
   background-color: #4CAF50;
->>>>>>> 0c4dcf9 (New commit message.)
   color: #333333;
   box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px 10px 0 0;
@@ -119,13 +96,10 @@
   flex: 1 1 45%;
 }
 
-<<<<<<< HEAD
-=======
 .courses img {
   width: 100%;
 }
 
->>>>>>> 0c4dcf9 (New commit message.)
 .key-sec {
   position: relative;
   height: 500px;
@@ -156,15 +130,9 @@
 }
 
 .education {
-<<<<<<< HEAD
-  border: 1px solid #FFAE11;
-  padding: 0 20px 10px;
-  width: 258px;
-=======
   border: 2px solid #FFAE11;
   padding: 0 20px 10px;
   width: 24%;
->>>>>>> 0c4dcf9 (New commit message.)
   box-sizing: border-box;
 }
 
@@ -217,7 +185,7 @@
   text-align: center;
 }
 
-.start-sec .inner {
+.start-sec .container {
   padding: 80px;
 }
 
@@ -240,16 +208,7 @@
   justify-content: flex-start;
 }
 
-<<<<<<< HEAD
-.res {
-  display: none;
-}
-
 @media (min-width: 1024px) {
-
-=======
-@media (min-width: 1024px) {
->>>>>>> 0c4dcf9 (New commit message.)
   .tabs label {
     order: 1;
     width: auto;
@@ -262,17 +221,9 @@
   .tabs [type=radio]:checked+label {
     border-bottom: none;
   }
-
 }
 
 @media (max-width: 1024px) {
-<<<<<<< HEAD
-  .pc {
-    display: none;
-  }
-=======
->>>>>>> 0c4dcf9 (New commit message.)
-
   .res {
     display: flex;
     flex-direction: column;
@@ -290,60 +241,43 @@
     flex-wrap: nowrap;
   }
 
-  .mv-blk nav i {
+  nav i {
     color: #FFAE11;
   }
 
-  .mv-blk .tab-label {
+  .tab-label {
     padding: 0;
     display: flex;
   }
 
-  .mv-blk input:checked~.tab-label::after {
+  input:checked~.tab-label::after {
     content: none;
   }
 
-  .mv-blk .tab-label::after {
+  .tab-label::after {
     content: none;
   }
 
-<<<<<<< HEAD
-  .mv-blk .tab-content{
-=======
-  .mv-blk .tab-content {
->>>>>>> 0c4dcf9 (New commit message.)
+  .tab-content {
     padding: 0;
     background-color: #006600;
     text-align: center;
   }
-<<<<<<< HEAD
-   .mv-blk .tab-content ul li {
+
+  .tab-content ul li {
     padding: 10px;
   }
 
-}
-
-@media (min-width: 992px) {
-=======
-
-  .mv-blk .tab-content ul li {
-    padding: 10px;
-  }
-
-  .aca-sec .d-flex{
+  .aca-sec .d-flex {
     display: block;
   }
 
 }
 
 @media (max-width: 768px) {
->>>>>>> 0c4dcf9 (New commit message.)
-
   .tabs {
     width: 100%;
   }
-<<<<<<< HEAD
-=======
 
   .sch-flex {
     background-image: none;
@@ -358,6 +292,7 @@
     padding: 0 20px 10px;
     width: 48%;
     box-sizing: border-box;
+    height: 154px;
   }
 
   .key-sec {
@@ -374,9 +309,34 @@
     line-height: 2;
   }
 
-  .start-sec .inner {
+  .start-sec .container {
     padding: 80px 0;
   }
+}
 
->>>>>>> 0c4dcf9 (New commit message.)
+@media (max-width: 377px) {
+  .sch-sec .tabs-block {
+    margin-bottom: 150px;
+  }
+
+  .aca-sec {
+    margin-top: 150px;
+  }
+
+  .key-sec .d-flex {
+    justify-content: center;
+  }
+
+  .education {
+    width: 100%;
+  }
+}
+
+@media (max-width: 280px){
+.sch-sec .tabs-block {
+    margin-bottom: 100px;
+}
+.aca-sec{
+  margin-top: 0px;
+}
 }

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-$(function (){
-    $('.multiple-items').slick({
-        slidesToShow: 4,
-        slidesToScroll: 4
-=======
 $(document).ready(function () {
     $('.my-slider').slick({
         slidesToShow: 4,
@@ -28,6 +22,11 @@ $(document).ready(function () {
                 }
             }
         ]
->>>>>>> 0c4dcf9 (New commit message.)
     });
+});
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
 });

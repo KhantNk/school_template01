@@ -5137,7 +5137,7 @@ readers do not read off random characters that represent icons */
 .fa-spider::before {
   content: "\f717"; }
 
-.fa-spinner::before {
+.fa-spcontainer::before {
   content: "\f110"; }
 
 .fa-splotch::before {
@@ -7710,7 +7710,7 @@ readers do not read off random characters that represent icons */
 .fa-wordpress-simple:before {
   content: "\f411"; }
 
-.fa-wpbeginner:before {
+.fa-wpbegcontainer:before {
   content: "\f297"; }
 
 .fa-wpexplorer:before {

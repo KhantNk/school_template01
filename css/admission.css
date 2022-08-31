@@ -23,10 +23,6 @@
   padding: 1em;
   font-weight: bold;
   cursor: pointer;
-<<<<<<< HEAD
-  align-items: center;
-=======
->>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .tab-label::after {
@@ -47,24 +43,17 @@
 
 input:checked~.tab-content {
   max-height: 100vh;
-<<<<<<< HEAD
-  padding: 1em;
-=======
-  padding: 30px;
->>>>>>> 0c4dcf9 (New commit message.)
+ padding: 30px;
 }
 
 input:checked~.tab-label::after {
   content: '-';
 }
-<<<<<<< HEAD
-=======
 
-.admission .tab-content p{
+.admission .tab-content p {
   padding-bottom: 45px;
 }
 
-.admission .tab-content p:last-child{
+.admission .tab-content p:last-child {
   padding: 0;
 }
->>>>>>> 0c4dcf9 (New commit message.)

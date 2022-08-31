@@ -35,26 +35,9 @@ footer p {
   padding-right: 130px;
 }
 
-<<<<<<< HEAD
-@media (max-width: 1024px){
-  .dflex{
-=======
-@media (max-width: 1024px) {
-  .dflex {
->>>>>>> 0c4dcf9 (New commit message.)
-    flex-wrap: nowrap;
-    padding-top: 20px;
-    padding-right: 0;
-    gap: 140px;
-  }
-}
-<<<<<<< HEAD
-=======
-
 @media (max-width: 1024px) {
   .dflex {
     flex-wrap: nowrap;
-    padding-top: 20px;
     padding-right: 0;
     gap: 20px;
     flex-direction: column;
@@ -68,4 +51,3 @@ footer p {
     padding: 20px;
   }
 }
->>>>>>> 0c4dcf9 (New commit message.)

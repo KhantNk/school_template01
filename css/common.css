@@ -1,34 +1,36 @@
 @font-face {
   font-weight: 400;
-  font-family: 'Levenim MT';
+  font-family: "Levenim MT", sans-serif;
   src: url(../font/lvnm.ttf);
 }
 
 @font-face {
   font-weight: 600;
-  font-family: 'Levenim MT';
+  font-family: "Levenim MT", sans-serif;
   src: url(../font/lvnmbd.ttf);
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 .banner {
   background: url(../img/banner.jpg);
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 300px;
 }
 
->>>>>>> 0c4dcf9 (New commit message.)
-.inner {
+.container {
   width: 1125px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -47,21 +49,9 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
-  font-family: 'Levenim MT';
   font-weight: 300px;
   font-size: 30px;
-}
-
-h2 {
-  font-family: 'Levenim MT';
-  color: #006600;
-  font-size: 38px;
-  font-weight: bold;
-=======
-  font-weight: 300px;
-  font-size: 30px;
-  font-family: 'Levenim MT';
+  font-family: "Levenim MT" sans-serif;
 }
 
 h2 {
@@ -69,40 +59,19 @@ h2 {
   font-weight: bold;
   font-size: 38px;
   line-height: 1.5;
-  font-family: 'Levenim MT';
->>>>>>> 0c4dcf9 (New commit message.)
+  font-family: "Levenim MT", sans-serif;
 }
 
 h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 25px;
 }
 
 h4 {
-<<<<<<< HEAD
-  font-family: 'Roboto', sans-serif;
-  color: #006600;
-  font-size: 25px;
-  font-weight: 500;
-}
-
-h5 {
-  font-size: 25px;
-  font-weight: 500;
-  color: #333333;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 2;
-  color: #555555;
-=======
   color: #006600;
   font-weight: 500;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h5 {
@@ -116,8 +85,7 @@ p {
   font-weight: 300;
   font-size: 16px;
   line-height: 2;
-  font-family: 'Roboto', sans-serif;
->>>>>>> 0c4dcf9 (New commit message.)
+  font-family: "Roboto", sans-serif;
 }
 
 i {
@@ -126,15 +94,15 @@ i {
 }
 
 a {
-  color: #E7ECF2;
+  color: #e7ecf2;
 }
 
 a:hover {
-  color: #FFAE11;
+  color: #ffae11;
 }
 
 .org {
-  color: #FFAE11;
+  color: #ffae11;
 }
 
 span a {
@@ -148,12 +116,12 @@ span a {
 span a::before {
   color: #006600;
   text-align: center;
-  content: '|';
+  content: "|";
 }
 
 .step {
   color: #333333;
-  border-bottom: 1px solid #BBBBBB;
+  border-bottom: 1px solid #bbbbbb;
   line-height: 2;
 }
 
@@ -170,34 +138,29 @@ span a::before {
 }
 
 .px-5 {
-<<<<<<< HEAD
-  padding: 50px 0;
-}
-
-.mv-blk {
-  background: url(../img/main_bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-=======
   padding: 120px 0 100px;
->>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .bg-color {
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
 }
 
 nav ul .active a {
-  color: #FFAE11;
+  color: #ffae11;
 }
 
-<<<<<<< HEAD
-@media (max-width: 1024px) {
-=======
 .res {
   display: none;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #000;
 }
 
 @media (max-width: 1024px) {
@@ -205,7 +168,10 @@ nav ul .active a {
     display: none;
   }
 
->>>>>>> 0c4dcf9 (New commit message.)
+  .container {
+    width: 75%;
+  }
+
   .inner {
     width: 75%;
   }
@@ -215,11 +181,7 @@ nav ul .active a {
   }
 
   h2 {
-<<<<<<< HEAD
-    font-size: 28px;
-=======
     font-size: 25px;
->>>>>>> 0c4dcf9 (New commit message.)
   }
 
   h3 {
@@ -227,20 +189,6 @@ nav ul .active a {
   }
 
   h4 {
-<<<<<<< HEAD
-    font-size: 15px;
-  }
-
-  h5 {
-    font-size: 15px;
-  }
-
-  p {
-    font-size: 10px;
-  }
-
-  .res {
-=======
     font-size: 25px;
   }
 
@@ -253,26 +201,10 @@ nav ul .active a {
   }
 
   .banner .res {
->>>>>>> 0c4dcf9 (New commit message.)
     display: flex;
     flex-direction: column-reverse;
   }
 
-<<<<<<< HEAD
-  .res .flex-end {
-    display: block;
-  }
-
-  .res .flex-start {
-    display: block;
-  }
-
-  .mv-blk nav i {
-    color: #FFAE11;
-  }
-
-  .mv-blk .tab-label {
-=======
   .banner .res .flex-end {
     display: block;
   }
@@ -281,33 +213,21 @@ nav ul .active a {
     display: block;
   }
 
-  .banner .res span {
-    color: #FFAE11;
+  .res span {
+    color: #ffae11;
     font-size: 20px;
   }
 
   .banner nav i {
-    color: #FFAE11;
+    color: #ffae11;
   }
 
   .banner .tab-label {
->>>>>>> 0c4dcf9 (New commit message.)
     padding: 0;
     display: flex;
   }
 
-<<<<<<< HEAD
-  .mv-blk input:checked~.tab-label::after {
-    content: none;
-  }
-
-  .mv-blk .tab-label::after {
-    content: none;
-  }
-
-  .mv-blk .tab-content {
-=======
-  .banner input:checked~.tab-label::after {
+  .banner input:checked ~ .tab-label::after {
     content: none;
   }
 
@@ -316,28 +236,95 @@ nav ul .active a {
   }
 
   .banner .tab-content {
->>>>>>> 0c4dcf9 (New commit message.)
     padding: 0;
     background-color: #006600;
     text-align: center;
   }
 
-<<<<<<< HEAD
-  .mv-blk .tab-content ul li {
-=======
   .banner .tab-content ul li {
->>>>>>> 0c4dcf9 (New commit message.)
     padding: 10px;
   }
 
+  .hamburger .line {
+    width: 25px;
+    height: 2px;
+    background-color: #ffae11;
+    display: block;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger .line:nth-child(1) {
+    margin: 0;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
+  #hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(9px) rotate(45deg);
+    -ms-transform: translateY(9px) rotate(45deg);
+    -o-transform: translateY(9px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  #hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-9px) rotate(-45deg);
+    -ms-transform: translateY(-9px) rotate(-45deg);
+    -o-transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(-9px) rotate(-45deg);
+  }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 768px) {
-  .inner {
+  .container {
     width: 90%;
   }
 
+  .inner {
+    width: 90%;
+  }
 }
->>>>>>> 0c4dcf9 (New commit message.)
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .px-3 {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 280px) {
+  span a {
+    font-size: 12px;
+  }
+}

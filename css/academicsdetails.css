@@ -1,13 +1,9 @@
 .award {
-<<<<<<< HEAD
-  line-height: 3;
-=======
   padding-top: 40px;
 }
 
 .award ul li {
   line-height: 2.5;
->>>>>>> 0c4dcf9 (New commit message.)
 }
 
 .academicsdetails .sam-img {
@@ -21,20 +17,6 @@
 }
 
 .academicsdetails .information {
-<<<<<<< HEAD
-  padding: 20px;
-}
-
-.academicsdetails .information .d-flex{
-  line-height: 3;
-}
-
-.academicsdetails .information{
-  text-align: left;
-}
-
-.academicsdetails .class-info li:before{
-=======
   padding: 30px 50px 30px 30px;
 }
 
@@ -48,14 +30,10 @@
 }
 
 .academicsdetails .class-info li:before {
->>>>>>> 0c4dcf9 (New commit message.)
   content: ':';
   padding-right: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
 .academicsdetails .sam {
   padding: 120px 0 100px;
 }
@@ -82,4 +60,9 @@
     padding-top: 30px;
   }
 }
->>>>>>> 0c4dcf9 (New commit message.)
+
+@media (max-width: 280px) {
+  .academicsdetails .information {
+    padding: 0;
+  }
+}

@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-.sam {
-  padding: 50px 0;
-}
-
-.sam-img img {
-  width: 318px;
-  height: 325px;
-}
-
-.sam-img {
-=======
 .sam-img img {
   width: 318px;
 }
 
 .academicsdetails .sam-img img {
->>>>>>> 0c4dcf9 (New commit message.)
   text-align: center;
 }
 
@@ -29,13 +16,10 @@
   width: 65%;
 }
 
-<<<<<<< HEAD
-=======
 .sam-img-txt {
   text-align: center;
 }
 
->>>>>>> 0c4dcf9 (New commit message.)
 .strategic-flex {
   display: flex;
   flex: 1 1 45%;
@@ -49,17 +33,6 @@
 .strategic-sec p {
   font-size: 16px;
   line-height: 30px;
-<<<<<<< HEAD
-  padding: 15px;
-}
-
-.strategic-sec {
-  padding-bottom: 50px;
-}
-
-@media (max-width: 1024px) {
-  .sam-img {
-=======
 }
 
 .strategic-sec {
@@ -72,7 +45,6 @@
   }
 
   .sam .sam-img img {
->>>>>>> 0c4dcf9 (New commit message.)
     width: 100%;
   }
 
@@ -85,11 +57,7 @@
     flex-direction: column-reverse;
   }
 
-<<<<<<< HEAD
-=======
   .strategic-sec img {
     width: 100%;
   }
->>>>>>> 0c4dcf9 (New commit message.)
-
 }
